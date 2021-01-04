@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-redis",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/wguilherme/nodejs-redis.git",
+  "author": "W. Guilherme <ravok123@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "promise-redis": "^0.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
