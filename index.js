@@ -4,10 +4,13 @@
    const redis = require('promise-redis')();
    const client = redis.createClient();
 
-   // const result = await client.set('chave', 'valor');
-   // console.log(result)
+   const result = await client.set('chave', 'valor');
+   console.log(result)
 
-   console.log('ok')
+   console.log('ok');
+
+   const result2 = await client.get('chave');
+   console.log(result2)
 
 
 })();
