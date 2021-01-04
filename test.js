@@ -15,18 +15,12 @@
 
       let cachedUser = await client.get(userId);
 
-
-
       if (!cachedUser) {
          const [rows] = await conn.query('select * from users where id=? limit 1', [800]);
          console.log(rows[0].name, rows[0].age);
       } else {
-
          console.log('aqui', cachedUser);
       }
-
-
-
    }
    console.timeEnd('mysql');
 
