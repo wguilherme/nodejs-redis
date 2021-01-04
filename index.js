@@ -5,12 +5,17 @@
    const client = redis.createClient();
 
    const result = await client.set('chave', 'valor');
-   console.log(result)
+   const resultExpiresIn10Seconds = await client.set('chaveExpires', 'valorExpires', 'EX', 10);
 
-   console.log('ok');
+   // console.log(result)
+   // console.log(resultExpiresIn10Seconds)
 
-   const result2 = await client.get('chave');
-   console.log(result2)
+   const logResult = await client.get('chave');
+   const logResultExpiresIn10Seconds = await client.get('chaveExpires');
+
+
+   console.log(logResult)
+   console.log(logResultExpiresIn10Seconds)
 
 
 })();
