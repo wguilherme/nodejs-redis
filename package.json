@@ -9,6 +9,7 @@
     "dev": "nodemon index.js"
   },
   "dependencies": {
+    "mysql2": "^2.2.5",
     "promise-redis": "^0.0.5"
   },
   "devDependencies": {
