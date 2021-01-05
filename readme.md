@@ -9,7 +9,7 @@
   </a>
 </p>
 
-### 🏠 (Small Redis study project. Here we make a request for 1000 user records and store the cash. We make the requisition 1,000 times. When we enabled the Redis cache, we noticed a reduction of approximately 50% to perform the same process without the cache system.)
+### 🏠 Small Redis study project. Here we make a request for 1000 user records and store the cash. We make the requisition 1,000 times. When we enabled the Redis cache, we noticed a reduction of approximately 50% to perform the same process without the cache system.
 
 ## Install
 
