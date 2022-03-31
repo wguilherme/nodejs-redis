@@ -5,7 +5,7 @@
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
   <a href="https://twitter.com/wguilhermebr" target="_blank">
-    <img alt="Twitter: WithneyGui" src="https://img.shields.io/twitter/follow/WithneyGui.svg?style=social" />
+    <img alt="Twitter: wguilhermebr" src="https://img.shields.io/twitter/follow/wguilhermebr.svg?style=social" />
   </a>
 </p>
 
@@ -26,7 +26,7 @@ yarn dev
 ## Author
 
 * Website: http://brainyresults.com
-* Twitter: [@WithneyGui](https://twitter.com/wguilhermebr)
+* Twitter: [@wguilhermebr](https://twitter.com/wguilhermebr)
 * Github: [@wguilherme](https://github.com/wguilherme)
 * LinkedIn: [@wguilherme](https://linkedin.com/in/wguilherme)
 
